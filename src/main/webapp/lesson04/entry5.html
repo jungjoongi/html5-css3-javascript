@@ -1,0 +1,84 @@
+<!-- 표와 폼 설치하기 - 파일업로드, 리셋, 등 -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>표와 폼 설치하기</title>
+</head>
+<body>
+
+    <form id="entryForm" action="#" method="post">
+        <table border="1">
+        <!-- 텍스트 박스에 어떻게 입력하는지 예제 써놓는것 placeholder -->
+        <!-- required가 붙으면 필수 입력사항이다. -->
+        <lable> 이름 : <input type="text" name="fullname" placeholder="ex)홍길동" required></lable>
+            <tr>
+                <th>고양이 이름</th>
+                <!-- autofocus가 있으면 로딩될때 자동으로 커서가 시작된다. -->
+                <td><input type="text" name="cat-name" autofocus ></td>
+            </tr>
+            <tr>
+                <th>주소</th>
+                <td><select name="pref">
+                        <option value="" selected>선택해 주세요.</option>
+                        <option value="서울">서울</option>
+                        <option value="광주">광주</option>
+                        <option value="대구">대구</option>
+                        <option value="대전">대전</option>
+                        <option value="부산">부산</option>
+                        <option value="울산">울산</option>
+                        <option value="제주도">제주도</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>성별</th>
+                <td><input type="radio" name="sex" value="남자" checked required>남자
+                <input type="radio" name="sex" value="여자" required>여자</td>
+            </tr>
+            <tr>
+                <th>좋아하는 것</th>
+                <td><input type="checkbox" name="like1" value="생선">생선
+                    <input type="checkbox" name="like2" value="고기">고기
+                    <input type="checkbox" name="like3" value="우유">우유
+                    <input type="checkbox" name="like4" value="바삭바삭한 것">바삭바삭한것 
+                    <input type="checkbox" name="like5" value="단것">단것</td>
+            </tr>
+            <tr>
+                <th>사진</th>
+                <!-- input요소 (type="file") -->
+                <!-- <input type="file" name="데이터명"> -->
+                <td><input type="file" name="photo"></td>
+            </tr>
+            <tr>
+                <th>기르는 주인이름</th>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <th>메일주소</th>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <th>코멘트</th>
+                <td><textarea name="comment" row="4" cols="40" autocomplete="on"></textarea></td>
+            </tr>
+            <tr>
+                <th>색상</th>
+                <td><input type="color" name="color"></td>
+            </tr>
+            <tr>
+                <th>일주일 평균 산책횟수는?</th>
+                <td><input type="number" name="num" min="1" max="10" step="1" placeholder="1-10"></td>
+            </tr>
+        </table>
+        <a> 주기적인 연락을 받기를 동의하십니까? </a>
+        <label><input type="radio" name="agree" value="동의한다" required>동의한다</label>
+        <label><input type="radio" name="agree" value="동의하지 않는다" required>동의하지 않는다</label>
+        <!-- 버튼류 -->
+        <div>
+            <input type="reset" value="리셋">
+            <input type="submit" value="전송">
+            <input type="button" value="버튼">
+        </div>
+    </form>
+</body>
+</html>
