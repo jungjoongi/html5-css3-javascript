@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*윈도우 배경색 설정 */
+body {
+	background-color: #fbf9cc
+}
+
+/* 링크 색상 변경 */
+a {
+	color: #df4839;
+}
+
+a:hover {
+	color: #ff705b;
+}
+
+/* 페이지 제목 설정 */
+h1 {
+	color: #6fbb9a;
+	text-align: center;
+	font-size: 250%;
+	padding: 5px 20px; /* 상하 좌우 / 상 좌우 좌 / 상 우 하 좌 */
+	margin-botton: 0;
+}
+
+/* 큰 표제 설정 */
+h2 {
+	color: #6fbb9a;
+	border: #94c8b1 1px dotted; /* 색 굵기 종류 */
+	border-left: #d0e35b 10px solid;
+}
+
+/* 정보 데이터 표제 설정 */
+dt {
+    font-weight: bold; /* 실무에서는 normal 또는 bold 둘중 하나만 사용한다. */	
+}
+
+/* 리드문 영역 설정 */
+
+/* '더 보기'링크 설정 */
+
+/* 털, 성별 정보(공통) */
+
+/* 성별에 따른 색상 구분 */
