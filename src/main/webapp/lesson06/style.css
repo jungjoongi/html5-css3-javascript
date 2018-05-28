@@ -12,9 +12,9 @@ a {
 
 a:hover {
 	color: #ff705b;
-}
+} 
 
-/* 페이지 제목 설정 */
+/* 페이지 제목 설정 */ 
 h1 {
 	color: #6fbb9a;
 	text-align: center;
@@ -23,7 +23,7 @@ h1 {
 	margin-botton: 0;
 }
 
-/* 큰 표제 설정 */
+/* 큰 표제 설정 */ 
 h2 {
 	color: #6fbb9a;
 	border: #94c8b1 1px dotted; /* 색 굵기 종류 */
