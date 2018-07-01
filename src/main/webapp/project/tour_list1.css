@@ -1,0 +1,118 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .tour_list {
+            height: 1450px;
+            padding: 31px 0 0 0;
+            margin: 0;
+
+        }
+
+        .item_section {
+            width: 366px;
+            height: 440px;
+            box-shadow: 3px 3px 3px 3px #999;
+            justify-content: space-between;
+            float: left;
+            margin-bottom: 31px;
+        }
+        .item_section_center {
+            float: left;margin-left: 31px;
+        }
+
+        .item_section_right {
+            float: right;margin-right: 0px;
+        }
+
+        .item_top {
+            width: 366px;
+            height: 350px;
+            position: relative;
+            text-align: center;
+
+        }
+
+        .item_top img {
+            width: 366px;
+            height: 217px;
+        }
+
+        .s_day {
+            position: absolute;
+            color: white;
+            background-color: black;
+            width: 70px;
+            height: 25px;
+
+        }
+
+        .s_star {
+            position: absolute;
+            color: burlywood;
+            width: 70px;
+            height: 25px;
+            text-align: center;
+            margin-left: 250px;
+            margin-top: 180px;
+            font-size: 20px;
+        }
+
+        .s_tit {
+            margin-top: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .s_theme {
+            color: dimgray;
+        }
+
+        .item_tag {
+            margin-top: 15px;
+            color: darksalmon;
+        }
+
+        .next {
+            color: black;
+        }
+
+        .ico_type {
+            width: 122px;
+            height: 61px;
+            float: left;
+            width: 33.3%;
+            text-align: center;
+        }
+
+
+        .layer_img li a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .layer_img li a:hover {
+            text-decoration: none;
+            color: tomato;
+
+        }
+
+        .layer_img li {
+            list-style: none;
+            float: left;
+            margin-left: 22px;
+            margin-top: 500px;
+
+        }
+
+        .item_count_area {
+            margin-top: 15px;
+        }
+
+
+
+
+
