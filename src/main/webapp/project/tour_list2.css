@@ -141,5 +141,8 @@
 .item_count_area a:visited {
     color: black;
 }
+.item_count_area a:default {
+    color: black;
+}
 
 

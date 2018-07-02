@@ -1,0 +1,300 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body, html {
+            height: 100%;
+        }
+
+        blockquote, body, button, caption, dd, div, dl, dt, fieldset, form, frame, h1, h2, h3, h4, h5, h6, hr, html, iframe, input, legend, li, object, ol, p, pre, q, select, table, td, textarea, tr, ul {
+            margin: 0;
+            padding: 0;
+            font-family: NanumSquare,Nanum Gothic,\\B098\B214\ACE0\B515,"\B9D1\C740 \ACE0\B515",Malgun Gothic,Open Sans,Dotum,\\B3CB\C6C0,arial,sans-serif;
+        }
+
+#sub1.container{
+    width: 1200px;
+    margin: auto;
+}
+#sub1-1.detail_page {
+    width: 100%;
+    height: 480px;
+}
+#sub1-1 .sub_info_area {
+    width:423px;
+    height: 480px;
+    padding: 0 36px 0 36px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+#sub1-1 .sub_info_title {
+    width: 260px;
+    height: 150px;
+    padding-top: 30px;
+    color: white;
+    position: relative;
+
+}
+#sub1-1 .sub_info_title h3 {
+    font-size: 26pt;
+}
+#sub1-1 .sub_info_title p {
+    font-size: 15pt;
+}
+#sub1-1 .weather {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    position: absolute;
+    top:29px;
+    left: 306px;
+    right: 27px;
+    bottom: 361px;
+}
+
+#sub1-1 .weather img {
+    margin-left: 22.5px;
+    margin-top: 10px;
+}
+#sub1-1 .weather p {
+    text-align: center;
+    font-size: 10pt;
+}
+#sub1-1 .sub_info {
+    width: 1200px;
+    margin: auto;
+}
+#sub1-1 .score_area_l {
+    width: 103px;
+    height: 17px;
+    margin-top: 9px;
+    color: yellow;
+    font-size: 22px;
+}
+#sub1-1 .tag_area {
+    width: 351px;
+    height: 40px;
+    margin-top: 19px;
+}
+#sub1-1 .tag_area a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+#sub1-1 .basic_information {
+    width: 351px;
+    height: 137px;
+    margin-top: 8px;
+}
+#sub1-1 .basic_information p {
+    color: white;
+}
+#sub1-1 .info_tit {
+    font-size: 20pt;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+#sub1-1 .clear1 {
+    width: 351px;
+    height: 18px;
+    margin-top: 10px;
+    clear: both;
+
+}
+#sub1-1 .info_sub_tit {
+    width: 60px;
+    height: 14px;
+}
+#sub1-1 .clear1 p {
+    font-size: 10pt;
+    float: left;
+}
+
+#sub1-1 .btn_area {
+    width: 351px;
+    height: 30px;
+    margin-top: 20px;
+}
+#sub1-1 .btn_area button {
+    color: white;
+    width: 62px;
+    height: 28px;
+    background-color: rgba( 255, 255, 255, 0.0 );
+    border: 1px solid white;
+}
+#sub1-1 .btn_area button:hover {
+    border-color: orange;
+}
+
+#sub1 .appraisal_list {
+    width: 1200px;
+    height: 100px;
+    padding: 40px 0 40px 0;
+    clear: both;
+}
+#sub1 .appraisal_list li {
+    float: left;
+    width: 170px;
+    height: 100px;
+    list-style: none;
+    text-align: center;
+}
+#sub1 .tab_area {
+    width: 1200px;
+    height: 50px;
+    position: relative;
+    clear: both;
+}
+/* 
+#sub1 .tab_btn:hover{
+    background-color: orange;
+    color: white;
+} */
+
+#sub1 .tab_btn.active {
+    border-top:  solid orange 2px;
+    border-right:  solid orange 2px;
+    border-left:  solid orange 2px;
+    border-bottom: solid orange  0px;
+    color: orange;
+}
+
+#sub1 .appraisal_list button {
+    width: 174px;
+    height: 97px;
+    font-size: 12pt;
+    box-sizing: border-box;
+    text-rendering: auto;
+    display: inline-block;
+    border: 0;
+    cursor: pointer;
+    background:none;
+    outline: none;
+}
+#sub1 .appraisal_list button img {
+    margin-top: 0;
+    height: 40px
+}
+#sub1 .appraisal_list img {
+    margin-top: 6px;
+}
+#sub1 .appraisal_list p {
+    font-size: 12pt;
+    margin-top: 4px;
+    
+}
+#sub1 .appraisal_cnt {
+    color: orange;
+}
+
+#sub1 .tab_btn {
+    background: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgb(158, 158, 158);
+    background-color: white;
+    width: 193.04px;
+    height: 50px;
+    border: 0;
+    border-bottom : solid orange 2px;
+    float: left;
+}
+#sub1 .tab_cont {
+    padding-top: 50px;
+}
+
+/* 성새정보 내용물 */
+#sub1 .conts_detail li{
+    font-size: 13pt;
+    color: slategray;
+}
+
+
+/* 이용안내 */
+
+#sub1 .guide {
+    width: 1200px;
+    height: 437px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#sub1 .cont_tit {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#sub1 .guide th {
+    width: 258px;
+    color: rgb(165, 165, 165);
+} 
+
+#sub1 .guide tr th, td{
+    text-align: left;
+    font-size: 13pt;
+    height: 40px;
+}
+
+#sub1 .guide tbody {
+    width: 1050px;
+}
+
+#sub1 .guide img {
+    float: left;
+    width: 32px;
+    height: 31px;
+    margin-left: 9px;
+}
+
+#sub1 .guide tr {
+    display: block;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    width: 1000px;
+}
+#sub1 .btn_info {
+    display: block;
+    width: 144px;
+    height: 29px;
+    margin-left: 20px;
+    border: 1px solid #959595;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #959595;
+    line-height: 29px;
+    text-align: center;
+    margin-left: 92px;
+    
+}
+
+
+/* 사진 */
+#sub1 .cont_tit {
+    width: 1200px;
+    height: 24px;
+    font-size: 24pt;
+    font-weight: 800;
+    color: #1b1b1b;
+    line-height: 24px;
+
+}
+
+#sub1 .photo {
+    width: 1200px;
+    height: 820px;
+    margin-top: 30px;
+}
+
+#sub1 .photo_item {
+    float: left;
+    top: 10px;
+    margin-left: 50px;
+}
+
+#sub1 .photo_item img {
+    margin-left: 30px;
+}
