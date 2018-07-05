@@ -1,12 +1,12 @@
-.btn_bottom {
+#sub1 .btn_bottom {
     text-align: center;
 }
 
-.btn_bottom a:hover {
-    border: 1px solid orange;
+#sub1 .btn_bottom a:hover {
+    border: 1px solid #2168f6;
 }
 
-.btn_bottom a {
+#sub1 .btn_bottom a {
     text-decoration: none;
     border: 1px solid #E2E2E2;
     color: #999;

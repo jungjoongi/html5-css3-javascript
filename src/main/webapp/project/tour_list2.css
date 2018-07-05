@@ -3,37 +3,37 @@
             padding: 0;
         }
 
-.tour_list {
+#sub1 .tour_list {
     width: 1160px;
     height: 1954px;
 }
-.item_list li {
+#sub1 .item_list li {
     width: 1160px;
     height: 281px;
     padding-top: 30px;
     border-bottom: 1px solid rgb(221, 221, 221);
 }
-.item_section {
+#sub1 .item_section {
     width: 1160px;
     height: 220px;
     position: relative;
     clear: both;
 }
-.item_top {
+#sub1 .item_top {
     float: left;
     width: 676px;
     height: 220px;
     clear: both;
 }
-.item_list {
+#sub1 .item_list {
     list-style: none;
 }
-.item_top img {
+#sub1 .item_top img {
     width: 270px;
     height: 220px;
     float: left;
 }
-.s_day {
+#sub1 .s_day {
     position: absolute;
     color: white;
     background-color: black;
@@ -43,52 +43,52 @@
     text-align: center;
     line-height: 22px;
 }
-.s_star {
+#sub1 .s_star {
     position: absolute;
-    color: orange;
+    color: yellow;
     left: 180px;
     top: 190px;
 }
-.item_desc {
+#sub1 .item_desc {
     float: left;
     width: 396px;
     padding-left: 10px;
 }
 
-.s_tit {
+#sub1 .s_tit {
     margin-top: 10px;
     font-size: 17pt;
     font-weight: bold;
 }
-.s_theme {
+#sub1 .s_theme {
     margin: 10px 0 0 10px;
     font-size: 11pt;
     color: slategray
 }
-.s_theme_tit {
+#sub1 .s_theme_tit {
     margin: 12px 0 0 0;
     font-size: 10pt;
     color: slategray
 }
-.item_tag {
-    color: orange;
+#sub1 .item_tag {
+    color: #2168f6;
     font-size: 10pt;
     margin-top: 12px;
 }
-.item_count_h_area {
+#sub1 .item_count_h_area {
     margin-top: 10px;
     font-size: 12px;
     color: slategray;
 }
 
-.item_count_area {
+#sub1 .item_count_area {
     margin: 0;
     float: left;
     width: 484px;
     height: 220px;
 }
 
-.item_count_area p {
+#sub1 .item_count_area p {
     float: none;
     position: relative;
     width: 129px;
@@ -97,12 +97,12 @@
     border: 1px solid rgb(221, 221, 221);
     margin: 21px 0 21px 304px;
 }
-.item_count_area img {
+#sub1 .item_count_area img {
     position: absolute;
     left: 25px;
     top: 11.5px;
 }
-.item_count_area #like {
+#sub1 .item_count_area #like {
     float: left;
     width: 52px;
     height: 43px;
@@ -110,7 +110,7 @@
     line-height: 43px;
     display: block;
 }
-.item_count_area #zzim {
+#sub1 .item_count_area #zzim {
     float: left;
     width: 52px;
     height: 43px;
@@ -118,7 +118,7 @@
     line-height: 43px;
     display: block;
 }
-.item_count_area #review {
+#sub1 .item_count_area #review {
     float: left;
     width: 52px;
     height: 43px;
@@ -126,11 +126,11 @@
     line-height: 43px;
     display: block;
 }
-.item_count_area p:hover {
-    color: orange;
+#sub1 .item_count_area p:hover {
+    color: #2168f6;
 
 }
-.count {
+#sub1 .count {
     float: left;
     display: block;
     width: 76px;
@@ -138,10 +138,10 @@
     text-align: center;
     line-height: 43px;
 }
-.item_count_area a:visited {
+#sub1 .item_count_area a:visited {
     color: black;
 }
-.item_count_area a:default {
+#sub1 .item_count_area a:default {
     color: black;
 }
 

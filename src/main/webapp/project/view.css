@@ -69,7 +69,7 @@
     width: 103px;
     height: 17px;
     margin-top: 9px;
-    color: yellow;
+    color:#2168f6;
     font-size: 22px;
 }
 #sub1-1 .tag_area {
@@ -125,7 +125,7 @@
     border: 1px solid white;
 }
 #sub1-1 .btn_area button:hover {
-    border-color: orange;
+    border-color: #2168f6;
 }
 
 #sub1 .appraisal_list {
@@ -154,11 +154,11 @@
 } */
 
 #sub1 .tab_btn.active {
-    border-top:  solid orange 2px;
-    border-right:  solid orange 2px;
-    border-left:  solid orange 2px;
-    border-bottom: solid orange  0px;
-    color: orange;
+    border-top:  solid #2168f6 2px;
+    border-right:  solid #2168f6 2px;
+    border-left:  solid #2168f6 2px;
+    border-bottom: solid #2168f6  0px;
+    color: #2168f6;
 }
 
 #sub1 .appraisal_list button {
@@ -186,7 +186,7 @@
     
 }
 #sub1 .appraisal_cnt {
-    color: orange;
+    color: #2168f6;
 }
 
 #sub1 .tab_btn {
@@ -200,7 +200,7 @@
     width: 193.04px;
     height: 50px;
     border: 0;
-    border-bottom : solid orange 2px;
+    border-bottom : solid #2168f6 2px;
     float: left;
 }
 #sub1 .tab_cont {
@@ -356,7 +356,7 @@
     font-weight: 400;
     color: #fff;
     line-height: 35px;
-    background-color: orange;
+    background-color: #2168f6;
     border: 0;
     outline: none;
     cursor: pointer;
@@ -364,7 +364,7 @@
 }
 
 #sub1 .photo .btn_regsit:hover {
-    background-color: rgb(255, 189, 68);
+    background-color: rgb(70, 113, 255);
 }
 
 
@@ -455,7 +455,7 @@
 #sub1 .map_search_area button.type_1 {
     width: 100px;
     margin-left: 0;
-    background: #f19221;
+    background: #2168f6;
 }
 
 #sub1 .map_search_area button {
@@ -512,7 +512,7 @@
     font-weight: 400;
     color: #fff;
     line-height: 35px;
-    background-color: orange;
+    background-color: #2168f6;
     border: 0;
     outline: none;
     cursor: pointer;
@@ -520,7 +520,7 @@
 }
 
 #sub1 .ps_review .btn_regsit:hover {
-    background-color: rgb(255, 189, 68);
+    background-color: rgb(70, 113, 255);
 }
 
 #sub1 .ps_review ul {
@@ -660,7 +660,7 @@
       background: url(../img/ico_like.png) no-repeat 0 50%;
       background-size: 15px 11px;
       font-size: 14px;
-      color: #f19221;
+      color: #2168f6;
       line-height: 23px;
       margin-right: 10px;
     }
@@ -756,7 +756,7 @@
 
     .review_wrap .review_area .user_content .checked_area a{
         text-decoration: none;
-        color: tomato;
+        color: #2168f6;
         margin-left: 10px;
         margin-right: 10px; 
     }
@@ -828,7 +828,7 @@
 
     .review_menu a.on {
       border: 2px solid #f8c990;
-      color: #f19221;
+      color: #2168f6;
     }
 
     .review_menu a:first-child {
@@ -861,7 +861,7 @@
     }
 
     .review_inner_cont .review_head_tit .count {
-      color: #f19221;
+      color: #2168f6;
     }
 
     .review_inner_cont .review_list {
@@ -883,7 +883,7 @@
     }
     
     .paging a:hover {
-        border: 1px solid orange;
+        border: 1px solid #2168f6;
     }
     
     .paging a {
